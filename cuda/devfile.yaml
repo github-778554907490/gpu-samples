@@ -1,0 +1,11 @@
+schemaVersion: 2.0.0
+metadata:
+  name: cuda-prj
+components:
+  - name: cuda
+    container:
+      # official nvidia cuda docker image
+      # https://hub.docker.com/r/nvidia/cuda/tags   
+      image: nvidia/cuda:12.5.0-devel-ubuntu22.04
+      mountSources: true
+      command: ['sleep', 'infinity']
