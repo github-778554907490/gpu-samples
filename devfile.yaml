@@ -6,6 +6,6 @@ components:
     container:
       # official nvidia cuda docker image
       # https://hub.docker.com/r/nvidia/cuda/tags   
-      image: nvidia/cuda:12.5.0-devel-ubuntu22.04
+      image: nvidia/cuda:12.4.0-devel-ubuntu22.04
       mountSources: true
       command: ['sleep', 'infinity']
